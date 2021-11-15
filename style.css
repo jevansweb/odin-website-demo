@@ -1,0 +1,284 @@
+* {
+    font-family: Helvetica ;
+}
+
+.white {
+    color: #F9FAF8;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
+.white .small-text {
+    display: inline-block;
+    margin: 0;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    margin: auto;
+}
+
+.call-to-action-text {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #e5e7eb;
+}
+
+.sign-up-1 {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.copyright-text {
+    display: inline-block;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: auto;
+}
+
+.image-placeholder-text {
+    display: flex;
+    margin: 0;
+    color: #F9FAF8;
+    margin: auto;
+    font-size: 12px
+}
+
+
+.subheading-1 {
+    display: block;
+    color: #F9FAF8;
+    font-size: 24px;
+    width: 150px;
+    height: 25px;
+}
+
+.subheading-2 {
+    display: block;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.subheading-3 {
+    display: inline-block;
+    margin: auto;
+    margin-right: 40px;
+    align-self: right;
+}
+
+.subheading-4 {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #f9faf8;
+    font-size:18px
+}
+
+.subheading-5 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    color: #f9faf8;
+    font-size:16px
+}
+
+ul#list {
+    display: block;
+    list-style-type: none;
+    gap: 18px;
+    width: 420px;
+    padding: 0;
+    margin-left: 220px;
+}
+
+.listpoints {
+    display: inline-block;
+    color: #F9FAF8;
+    font-size: 18px;
+    width: 135px;
+}
+
+
+
+.header-box {
+    display: flex;
+    background-color: #1F2937;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+
+.text-box-1 {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    height: 400px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.text-box-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.text-box-3 {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.text-box-4 {
+    display: flex;
+    background-color: white;
+    height: 300px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.text-box-5 {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.text-box-1-1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 48px;
+}
+
+.half-box {
+    display: block;
+    margin-top:72px;
+    margin-bottom:72px;
+    width: 400px;
+}
+
+.half-box-2 {
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+}
+
+.half-box-3 {
+    display: flex;
+    height: auto;
+    width: 300px;
+    margin-right: 0;
+    margin-left:auto;
+    align-items: center;
+    justify-content: left;
+}
+
+.small-text-box {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    margin: auto;
+}
+
+.small-text-box-2 {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    height: 120px;
+    margin: auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.image-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    width: 350px;
+    background-color: #848a92;
+}
+
+.sign-up-button-1 {
+    display: flex;
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button-2 {
+    display: flex;
+    height: 25px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid white;
+    justify-content: center;
+}
+
+.small-photo-group-1 {
+    display: block;
+    gap: 13px;
+    clear: both;
+}
+
+.photo-group {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 40px;
+    height: 250px;
+    width: 800px;
+    justify-content: center;
+}
+
+.small-photo-text {
+    display: inline-block;
+    margin:auto;
+    max-width: 144px;
+    font-size: 16px;
+    text-align: center;
+    padding:0;
+}
+
+.small-photo-1 {
+    display: block;
+    height: 140px;
+    width: 140px;
+    margin-top:0;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
